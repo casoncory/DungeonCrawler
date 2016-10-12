@@ -291,6 +291,7 @@ GameObject:
   - 4: {fileID: 351612227}
   - 114: {fileID: 351612226}
   - 114: {fileID: 351612228}
+  - 114: {fileID: 351612229}
   m_Layer: 0
   m_Name: Maze
   m_TagString: Maze
@@ -360,6 +361,21 @@ MonoBehaviour:
   player: {fileID: 179652, guid: 5fa7618e794e1f74aa2c98177cf38923, type: 2}
   chest: {fileID: 1000010517807934, guid: b97aee04561e35d42b3762c3a0b6a32a, type: 2}
   numChests: 10
+--- !u!114 &351612229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351612225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 147c1b27d72eaee45b41561b3b49d29b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsters:
+  - {fileID: 100702, guid: a8fe9acb1e0f9f74c81a0ac4738f9efe, type: 2}
+  - {fileID: 1000011628966300, guid: 55136c60aac453f4883aba0e7e8a65a9, type: 2}
+  numMonsters: 16
 --- !u!1 &1130530739
 GameObject:
   m_ObjectHideFlags: 0
